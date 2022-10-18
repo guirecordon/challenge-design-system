@@ -1,3 +1,3 @@
-import { colors } from '@java-challenge/tokens';
+import { colors } from '@java-challenge/tokens'
 
-console.log(colors);
+console.log(colors)
