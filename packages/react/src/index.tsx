@@ -1,5 +1,12 @@
-import { colors } from '@java-challenge/tokens'
+import { styled } from './styles'
+
+const Button = styled('button', {
+  fontFamily: '$default',
+  backgroundColor: '$blue',
+  borderRadius: '$md',
+  padding: '$4',
+})
 
 export function App() {
-  return <h1 style={{ color: colors.darkblue }}>Hello World</h1>
+  return <Button>Hello World</Button>
 }
