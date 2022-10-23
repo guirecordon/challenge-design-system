@@ -1,0 +1,3 @@
+{
+  "extends": "@java-challenge/eslint-config"
+}
