@@ -1,0 +1,4 @@
+{
+  "extends": "@java-challenge/ts-config/react.json",
+  "include": ["src"]
+}
