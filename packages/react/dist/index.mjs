@@ -92,13 +92,13 @@ var {
   }
 });
 
-// src/index.tsx
-var Button = styled("button", {
-  fontFamily: "$default",
-  backgroundColor: "$blue",
+// src/components/Box.tsx
+var Box = styled("div", {
+  padding: "$4",
   borderRadius: "$md",
-  padding: "$4"
+  backgroundColor: "$gray800",
+  border: "1px solid $gray600"
 });
 export {
-  Button
+  Box
 };
