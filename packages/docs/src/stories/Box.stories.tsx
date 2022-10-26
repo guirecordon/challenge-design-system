@@ -1,16 +1,12 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps } from '@java-challenge/react'
+import { Box, BoxProps, Text } from '@java-challenge/react'
 
 export default {
   title: 'Surfaces/Box',
   component: Box,
 
   args: {
-    children: (
-      <>
-        <span>Testando o elemento Box</span>
-      </>
-    ),
+    children: <Text>Testando o elemento Box</Text>,
   },
 } as Meta<BoxProps>
 
